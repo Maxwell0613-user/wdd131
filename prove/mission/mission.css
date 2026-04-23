@@ -3,25 +3,32 @@ body{
 }
 h2{
     font-size:50px;
+    font-weight:normal;
+    margin-bottom:0;
 }
 h3{
     font-size:15px;
 }
 #title {
     text-align:center;
+    
 }
 #content {
     max-width: 450px;
     border: 1px solid darkgray;
-    margin: 60px auto;
-    padding: 50px;
+    margin: 70px auto;
+    padding: 20px 100px 30px 100px;
 }
 h3{
     color:rgb(43, 131, 203);
     border-bottom: 1px solid grey;
 }
 img{
-    width:150px;
+    width:115px;
     display:block;
     margin: 0 auto;
+}
+li{
+    font-size:14px;
+    padding:10px;
 }
