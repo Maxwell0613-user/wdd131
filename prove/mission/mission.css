@@ -1,0 +1,27 @@
+body{
+    text-align: left;
+}
+h2{
+    font-size:50px;
+}
+h3{
+    font-size:15px;
+}
+#title {
+    text-align:center;
+}
+#content {
+    max-width: 450px;
+    border: 1px solid darkgray;
+    margin: 60px auto;
+    padding: 50px;
+}
+h3{
+    color:rgb(43, 131, 203);
+    border-bottom: 1px solid grey;
+}
+img{
+    width:150px;
+    display:block;
+    margin: 0 auto;
+}
