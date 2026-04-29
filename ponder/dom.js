@@ -30,3 +30,18 @@ para.classList.add('background');
 const image = document.querySelector('img');
 
 image.setAttribute('src', 'images/htmlcssjava.jpg')
+
+const dropdown = document.querySelector('#webdevlist');
+const html = document.querySelector('#html')
+const css = document.querySelector('#css')
+const js = document.querySelector('#js')
+
+
+dropdown.addEventListener('change', function(){
+    html.style.color = "purple";
+    css.style.color = "purple";
+    js.style.color = "purple";
+    let codeValue = dropdown.value;
+    document.getElementById(codeValue).style.color = 'red';
+})
+                
