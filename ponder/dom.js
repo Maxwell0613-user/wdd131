@@ -4,6 +4,10 @@ console.log(title);
 
 title.textContent = "Web Page Components";
 
+title.addEventListener('click', function(){
+    title.classList.toggle('highlight');
+})
+
 // Same thing just more compact
 // document.querySelector('h1').textContent = "Web Page Components";
 
@@ -44,4 +48,4 @@ dropdown.addEventListener('change', function(){
     let codeValue = dropdown.value;
     document.getElementById(codeValue).style.color = 'red';
 })
-                
+
