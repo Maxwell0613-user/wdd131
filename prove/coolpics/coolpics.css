@@ -35,7 +35,8 @@ img {
     border-style: solid;
     border-width: 6px;
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
+    object-fit: cover;
 
 }
 .menu-btn {
