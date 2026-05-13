@@ -9,6 +9,20 @@ gallery.addEventListener('click', openModal);
 
 function openModal(e) {
     
+console.log(e.target);
+
+const img = e.target;
+
+const src = img.getAttribute('src');
+const alt = img.getAttribute('alt');
+
+const full = src.replace('sm', 'full');
+
+modalImage.src = full;
+modalImage.alt = alt;
+
+modal.showModal();
+
 // Code to show modal  - Use event parameter 'e'   
     
 }
