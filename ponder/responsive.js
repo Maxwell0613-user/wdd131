@@ -7,3 +7,9 @@ function toggleMenu() {
     menu.classList.toggle('hide');
     btn.classList.toggle('change');
 }
+
+
+//btn.addEventListener('click', function(){
+//    menu.classList.toggle('hide')
+//    btn.classList.toggle('hide')
+//})
