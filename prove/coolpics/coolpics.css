@@ -55,6 +55,15 @@ img {
     font-style:none;
     display:none;
 }
+
+.menu {
+    display: none;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #616061;
+}
+
 footer {
     background-color: lightskyblue;
     margin: 0;
@@ -63,6 +72,26 @@ footer {
 }
 
 
+dialog img {
+    width: 70%;
+    height:50%;
+    margin: 15vh auto;
+    border: none;
+    object-fit: contain;
+}
+dialog {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.75);
+}
+
+.close-viewer {
+    position: absolute;
+    top: 12vh;
+    right: 75px;
+    padding: 3px 6px;
+    font-size: 1.5em;
+}
 
 @media screen and (min-width: 800px) {
     .photos {
@@ -72,8 +101,39 @@ footer {
     .menu {
         display: none;
     }
- 
+    .photos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    dialog img {
+        width: 80%;
+        height:80%;
+        margin: 15vh auto;
+    }
 }
+@media screen and (min-width: 1200px) {
+    .photos {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    dialog img {
+        width: 80%;
+        height:80%;
+        margin: 15vh auto;
+    }
+    .close-viewer {
+        position: absolute;
+        right: 185px;
+    }
+    .viewer {
+        margin: 50px;
+        padding: 50px;
+    }
+    .viewer img {
+        max-width: 800px;
+    }
+}
+
+
 @media screen and (min-width: 1200px) {
     .photos {
         display:grid;
