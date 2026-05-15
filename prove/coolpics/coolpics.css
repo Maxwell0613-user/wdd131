@@ -77,7 +77,6 @@ dialog img {
     height:50%;
     margin: 15vh auto;
     border: none;
-    object-fit: contain;
 }
 dialog {
     width: 100%;
